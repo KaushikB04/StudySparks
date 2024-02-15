@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "844251745849",
+    "project_id": "studysparks-7af3c",
+    "storage_bucket": "studysparks-7af3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844251745849:android:bfdac80226bcfbd1efc7e8",
+        "android_client_info": {
+          "package_name": "com.example.studysparks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRt1QGIB5r_njZbTP9mh9DtH_Y59QMjlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

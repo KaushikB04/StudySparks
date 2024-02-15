@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeminiFragment"
+    android:background="@drawable/backgroundphoto"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gemini Ai"
+                android:fontFamily="@font/spacebold"
+                android:textSize="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:textColor="@color/DarkBlue"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_42sdp"
+                android:background="@drawable/customshape"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:hint="Enter Your Question"
+                android:fontFamily="@font/spacemid"
+                android:textColorHint="@color/DarkBlue"
+                android:paddingLeft="@dimen/_10sdp"
+                android:inputType="text"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:id="@+id/geminiedt"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:text="Find Answer"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/spacebold"
+                android:backgroundTint="@color/DarkBlue"
+                android:id="@+id/findanswerbtn"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="result"
+                android:padding="16dp"
+                android:id="@+id/result"
+                android:fontFamily="@font/spacebold"
+                android:textSize="@dimen/_10sdp"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
