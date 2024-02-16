@@ -3,8 +3,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SettingsFragment">
+    tools:context=".SettingsFragment"
+    android:background="@drawable/signupbackground"
+    >
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About App :"
+        android:layout_marginLeft="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_180sdp"
+        android:fontFamily="@font/spacebold"
+        android:textSize="@dimen/_20ssp"
+        android:textColor="@color/DarkBlue"
+        />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/spacemid"
+        android:text="The objective of the app is to help students access past question papers easily and use a chatbot for quick answers, making studying more convenient and efficient."
+        android:textColor="@color/DarkBlue"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:textSize="@dimen/_15ssp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us :"
+        android:layout_marginLeft="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/spacebold"
+        android:textSize="@dimen/_20ssp"
+        android:textColor="@color/DarkBlue"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/spacemid"
+        android:text="The objective of the app is to help students access past question papers easily and use a chatbot for quick answers, making studying more convenient and efficient."
+        android:textColor="@color/DarkBlue"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:textSize="@dimen/_15ssp"
+        />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:text="Logout"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
+            android:fontFamily="@font/spacebold"
+            android:backgroundTint="@color/DarkBlue"
+            android:id="@+id/logoutbtn"
+            />
+    </LinearLayout>
 
 </RelativeLayout>
