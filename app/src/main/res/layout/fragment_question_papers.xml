@@ -1,14 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/backgroundphoto"
     android:layout_height="match_parent"
     tools:context=".QuestionPapersFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="@dimen/_50sdp"
+        android:text="FE"
+        app:cornerRadius="@dimen/_10sdp"
+        android:textSize="@dimen/_25ssp"
+        android:id="@+id/fe_btn"
+        android:backgroundTint="#5EBDE8"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249" />
 
-</FrameLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/se_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:backgroundTint="#5EBDE8"
+        android:text="SE"
+        android:textSize="@dimen/_25ssp"
+        app:cornerRadius="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fe_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fe_btn"
+        app:layout_constraintTop_toBottomOf="@+id/fe_btn"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/te_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:backgroundTint="#5EBDE8"
+        android:text="TE"
+        android:textSize="@dimen/_25ssp"
+        app:cornerRadius="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/se_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/se_btn"
+        app:layout_constraintTop_toBottomOf="@+id/se_btn"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/be_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:backgroundTint="#5EBDE8"
+        android:text="BE"
+        android:textSize="@dimen/_25ssp"
+        app:cornerRadius="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/te_btn"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/te_btn"
+        app:layout_constraintTop_toBottomOf="@+id/te_btn"
+        app:layout_constraintVertical_bias="0.081" />
+</androidx.constraintlayout.widget.ConstraintLayout>
