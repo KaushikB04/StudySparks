@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Te_Civil"
+    android:background="@drawable/backgroundphoto2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/Civil1TE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Architecture and Town planning"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/spacemid"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/DarkBlue"
+            />
+        <TextView
+            android:id="@+id/Civil2TE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Construction Management"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/spacemid"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/DarkBlue"
+            />
+        <TextView
+            android:id="@+id/Civil3TE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Design of RC Structures"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/spacemid"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/DarkBlue"
+            />
+        <TextView
+            android:id="@+id/Civil4TE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Design of Steel Structures"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/spacemid"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/DarkBlue"
+            />
+        <TextView
+            android:id="@+id/Civil5TE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Engineering Economics and Financial Mgt"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/spacemid"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/DarkBlue"
+            />
+        <TextView
+            android:id="@+id/Civil6TE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hydrology and Water Resources Engineering"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/spacemid"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/DarkBlue"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/Civil7TE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remote Sensing and Geographic Info. Systems"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/spacemid"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/DarkBlue"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/Civil8TE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Research Methodology and IPR"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/spacemid"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/DarkBlue"
+            />
+        <TextView
+            android:id="@+id/Civil9TE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Solid Waste Management"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/spacemid"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/DarkBlue"
+            />
+        <TextView
+            android:id="@+id/Civil10TE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waste Water Engineering"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/spacemid"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/DarkBlue"
+            />
+        <TextView
+            android:id="@+id/Civil11TE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water Supply Engineering"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/spacemid"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/DarkBlue"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

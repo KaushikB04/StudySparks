@@ -3,10 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TE_MAIN_Fragment"
+    tools:context=".Civil_Questions_Fragment"
     android:background="@drawable/backgroundphoto2"
     >
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,61 +14,102 @@
         android:gravity="center"
         >
         <TextView
-            android:id="@+id/BranchTECivil"
+            android:id="@+id/Civil1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Civil Engineering"
+            android:text="Building Tech And Architectural planning"
             android:layout_marginTop="@dimen/_20sdp"
             android:fontFamily="@font/spacemid"
             android:textSize="@dimen/_15ssp"
             android:textColor="@color/DarkBlue"
             />
         <TextView
-            android:id="@+id/BranchTEComputer"
+            android:id="@+id/Civil2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Computer Engineering"
+            android:text="Concrete Technology"
             android:layout_marginTop="@dimen/_20sdp"
             android:fontFamily="@font/spacemid"
             android:textSize="@dimen/_15ssp"
             android:textColor="@color/DarkBlue"
             />
         <TextView
-            android:id="@+id/BranchTEENTC"
+            android:id="@+id/Civil3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Electronics And Telecommunication Engineering"
-            android:textAlignment="center"
+            android:text="Engineering Geology"
             android:layout_marginTop="@dimen/_20sdp"
             android:fontFamily="@font/spacemid"
             android:textSize="@dimen/_15ssp"
             android:textColor="@color/DarkBlue"
             />
         <TextView
-            android:id="@+id/BranchTEElectrical"
+            android:id="@+id/Civil4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Electrical Engineering"
+            android:text="Engineering Mathematics III"
             android:layout_marginTop="@dimen/_20sdp"
             android:fontFamily="@font/spacemid"
             android:textSize="@dimen/_15ssp"
             android:textColor="@color/DarkBlue"
             />
         <TextView
-            android:id="@+id/BranchTEIT"
+            android:id="@+id/Civil5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Information Technology Engineering"
+            android:text="Fluid Mechanics"
             android:layout_marginTop="@dimen/_20sdp"
             android:fontFamily="@font/spacemid"
             android:textSize="@dimen/_15ssp"
             android:textColor="@color/DarkBlue"
             />
         <TextView
-            android:id="@+id/BranchTEMechanical"
+            android:id="@+id/Civil6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mechanical Engineering"
+            android:text="Geotechnical Engineering"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/spacemid"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/DarkBlue"
+            />
+
+        <TextView
+            android:id="@+id/Civil7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mechanics of Structure"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/spacemid"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/DarkBlue"
+            />
+
+        <TextView
+            android:id="@+id/Civil8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Project Management"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/spacemid"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/DarkBlue"
+            />
+        <TextView
+            android:id="@+id/Civil9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Structural Analysis"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/spacemid"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/DarkBlue"
+            />
+        <TextView
+            android:id="@+id/Civil10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Survey"
             android:layout_marginTop="@dimen/_20sdp"
             android:fontFamily="@font/spacemid"
             android:textSize="@dimen/_15ssp"
@@ -77,6 +117,5 @@
             />
 
     </LinearLayout>
-
 
 </FrameLayout>

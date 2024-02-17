@@ -1,29 +1,26 @@
 package com.example.studysparks;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import com.github.barteksc.pdfviewer.PDFView;
 
-public class electrical_qp_Fragment extends Fragment {
-    PDFView ele;
+public class PpsFragment extends Fragment {
+
+    PDFView pdfv;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_electrical_qp_, container, false);
+        // Inflate the layout for this fragment
+        View view = inflater.inflate(R.layout.fragment_pps, container, false);
 
-        ele = view.findViewById(R.id.elcpdf);
-        ele.fromAsset("basicelericaal.pdf").load();
-
-
+        pdfv = view.findViewById(R.id.PPSFrag);
+        pdfv.fromAsset("pps.pdf").load();
 
         return view;
     }

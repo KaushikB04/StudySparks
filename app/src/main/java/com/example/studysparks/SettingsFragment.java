@@ -36,7 +36,6 @@ public class SettingsFragment extends Fragment {
                 Toast.makeText(getContext(), "Logout Successfull!", Toast.LENGTH_SHORT).show();
             }
         });
-
         return view;
     }
 }

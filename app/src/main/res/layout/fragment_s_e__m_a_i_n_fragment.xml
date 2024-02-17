@@ -1,14 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SE_MAIN_fragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    tools:context=".SE_MAIN_fragment"
+    android:gravity="center"
+    android:background="@drawable/backgroundphoto2"
+    >
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+    <TextView
+        android:id="@+id/BranchCivil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Civil Engineering"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/spacemid"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="@color/DarkBlue"
+        />
+    <TextView
+        android:id="@+id/BranchComputer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer Engineering"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/spacemid"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="@color/DarkBlue"
+        />
+    <TextView
+        android:id="@+id/BranchENTC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electronics And Telecommunication Engineering"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/spacemid"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="@color/DarkBlue"
+        />
+    <TextView
+        android:id="@+id/BranchElectrical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electrical Engineering"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/spacemid"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="@color/DarkBlue"
+        />
+        <TextView
+        android:id="@+id/BranchIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information Technology Engineering"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/spacemid"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="@color/DarkBlue"
+        />
+        <TextView
+        android:id="@+id/BranchMechanical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mechanical Engineering"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/spacemid"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="@color/DarkBlue"
+        />
 
-</FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>
