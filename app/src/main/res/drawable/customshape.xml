@@ -5,11 +5,9 @@
         android:width="@dimen/_1sdp"
         />
     <corners
-        android:radius="@dimen/_50sdp"
+        android:radius="@dimen/_10sdp"
         />
-    <gradient
-        android:startColor="@color/white"
-        android:centerColor="@color/white"
-        android:endColor="@color/white"
+    <solid
+        android:color="@color/white"
         />
 </shape>
