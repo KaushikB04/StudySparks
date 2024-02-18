@@ -38,11 +38,13 @@ public class MainBottomActivity extends AppCompatActivity {
                 {
                     loadfragment(new SettingsFragment());
                 }
-                else
+                else if (id == R.id.gemini)
                 {
                     loadfragment(new GeminiFragment());
                 }
-
+                else {
+                    loadfragment(new PlacementFragment());
+                }
 
                 return true;
             }

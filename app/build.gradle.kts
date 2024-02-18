@@ -57,4 +57,7 @@ dependencies {
 
     //pdfdep
     implementation ("com.github.barteksc:android-pdf-viewer:2.8.2")
+    //
+//    upi
+    implementation ("com.google.android.gms:play-services-wallet:19.3.0-beta01")
 }

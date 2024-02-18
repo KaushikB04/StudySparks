@@ -17,7 +17,9 @@
         android:title="Settings"
         android:icon="@drawable/setting"
         />
+    <item
+        android:id="@+id/placement"
+        android:title="Placement Support"
+        android:icon="@drawable/job"
+        />
 </menu>
-<!--android:id="@+id/setting"
-        android:title="Settings"
-        android:icon="@drawable/setting"-->

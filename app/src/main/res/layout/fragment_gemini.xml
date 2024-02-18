@@ -21,7 +21,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Gemini Ai"
+                android:text="SparkleBot"
                 android:fontFamily="@font/spacebold"
                 android:textSize="@dimen/_40sdp"
                 android:layout_gravity="center"
@@ -38,6 +38,7 @@
                 android:fontFamily="@font/spacemid"
                 android:textColorHint="@color/DarkBlue"
                 android:paddingLeft="@dimen/_10sdp"
+                android:textColor="@color/DarkBlue"
                 android:inputType="text"
                 android:layout_marginHorizontal="@dimen/_15sdp"
                 android:id="@+id/geminiedt"
@@ -59,9 +60,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="result"
+                android:text=""
                 android:padding="16dp"
                 android:id="@+id/result"
+                android:textColor="@color/DarkBlue"
                 android:fontFamily="@font/spacebold"
                 android:textSize="@dimen/_10sdp"
                 />
