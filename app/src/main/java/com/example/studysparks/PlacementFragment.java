@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
@@ -42,6 +43,8 @@ public class PlacementFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_placement, container, false);
+
+
 
         amount = view.findViewById(R.id.amount);
         pay = view.findViewById(R.id.paybtn);
@@ -91,4 +94,6 @@ public class PlacementFragment extends Fragment {
 
         return view;
     }
+
+
 }

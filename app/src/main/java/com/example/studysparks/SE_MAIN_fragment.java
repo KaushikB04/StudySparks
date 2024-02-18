@@ -2,15 +2,18 @@ package com.example.studysparks;
 
 import android.os.Bundle;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class SE_MAIN_fragment extends Fragment {
-    TextView civil,comp,entc,electrical,it,mech;
+    TextView civil, comp, entc, electrical, it, mech;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -24,10 +27,13 @@ public class SE_MAIN_fragment extends Fragment {
                 loadfragment(new Civil_Questions_Fragment());
             }
         });
+
         return view;
     }
 
     private void loadfragment(Fragment fragment) {
-        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container,fragment).commit();
+        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment).commit();
     }
+
+
 }

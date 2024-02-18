@@ -31,6 +31,15 @@ public class SignupActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private FirebaseFirestore db;
 
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(SignupActivity.this, MainActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -121,7 +130,6 @@ public class SignupActivity extends AppCompatActivity {
                                 Toast.makeText(SignupActivity.this, "Sign Up Successful !", Toast.LENGTH_SHORT).show();
                                 Intent intent = new Intent(SignupActivity.this, MainActivity.class);
                                 startActivity(intent);
-                                finish();
                             }
                         }).addOnFailureListener(new OnFailureListener() {
                             @Override

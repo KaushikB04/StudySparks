@@ -3,6 +3,7 @@ package com.example.studysparks;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -18,6 +19,7 @@ public class SettingsFragment extends Fragment {
 
     Button loutbtn;
     private FirebaseAuth mAuth;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -31,11 +33,13 @@ public class SettingsFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 mAuth.signOut();
-                Intent intent = new Intent(getContext(),MainActivity.class);
+                Intent intent = new Intent(getContext(), MainActivity.class);
                 startActivity(intent);
                 Toast.makeText(getContext(), "Logout Successfull!", Toast.LENGTH_SHORT).show();
             }
         });
         return view;
     }
+
+
 }

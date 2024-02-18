@@ -24,6 +24,13 @@ public class Forgot_password extends AppCompatActivity {
 
     Button back,reset;
     private FirebaseAuth mAuth;
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(Forgot_password.this, MainActivity.class);
+        startActivity(intent);
+        finish();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

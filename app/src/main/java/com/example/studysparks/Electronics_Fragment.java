@@ -1,5 +1,6 @@
 package com.example.studysparks;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -14,6 +15,7 @@ import com.github.barteksc.pdfviewer.PDFView;
 public class Electronics_Fragment extends Fragment {
 
     PDFView ele;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -24,3 +26,5 @@ public class Electronics_Fragment extends Fragment {
         return view;
     }
 }
+
+
